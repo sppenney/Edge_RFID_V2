@@ -1,0 +1,70 @@
+2020-05-15 16:39:41.286 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:39:41.328 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:39:41.473 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:39:41.474 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:39:41.481 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:40:30.732 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:40:30.773 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:40:31.375 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:40:31.376 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:40:31.383 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:40:31.544 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.3NSCS9ZLZKFSV4SBW85F2N with inbox _PUBLIC.3NSCS9ZLZKFSV4SBW85F2N
+2020-05-15 16:40:31.545 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.3NSCS9ZLZKFSV4SBW85F2N
+2020-05-15 16:40:31.545 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.3NSCS9ZLZKFSV4SBW85F2N with inbox _PUBLIC.3NSCS9ZLZKFSV4SBW85F2N for handler AmbientEdge.ResponseHandler
+2020-05-15 16:40:31.545 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.3NSCS9ZLZKFSV4SBW85F2N
+2020-05-15 16:47:17.977 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:47:18.014 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:47:18.615 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:47:18.616 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:47:18.622 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:47:18.789 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.IAI2P5Q1HHKKVZZP53OWV0 with inbox _PUBLIC.IAI2P5Q1HHKKVZZP53OWV0
+2020-05-15 16:47:18.789 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.IAI2P5Q1HHKKVZZP53OWV0
+2020-05-15 16:47:18.789 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.IAI2P5Q1HHKKVZZP53OWV0 with inbox _PUBLIC.IAI2P5Q1HHKKVZZP53OWV0 for handler AmbientEdge.ResponseHandler
+2020-05-15 16:47:18.789 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.IAI2P5Q1HHKKVZZP53OWV0
+2020-05-15 16:47:49.428 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:47:49.465 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:47:50.058 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:47:50.059 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:47:50.065 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:47:50.199 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.RZXIJLPDTM3SKVHKWDEBVT with inbox _PUBLIC.RZXIJLPDTM3SKVHKWDEBVT
+2020-05-15 16:47:50.199 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.RZXIJLPDTM3SKVHKWDEBVT
+2020-05-15 16:47:50.199 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.RZXIJLPDTM3SKVHKWDEBVT with inbox _PUBLIC.RZXIJLPDTM3SKVHKWDEBVT for handler AmbientEdge.ResponseHandler
+2020-05-15 16:47:50.199 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.RZXIJLPDTM3SKVHKWDEBVT
+2020-05-15 16:54:42.744 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:54:42.781 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:54:43.377 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:54:43.378 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:54:43.387 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:54:43.570 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.EDLIUR8JIW5MACEC8LRR53 with inbox _PUBLIC.EDLIUR8JIW5MACEC8LRR53
+2020-05-15 16:54:43.570 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.EDLIUR8JIW5MACEC8LRR53
+2020-05-15 16:54:43.570 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.EDLIUR8JIW5MACEC8LRR53 with inbox _PUBLIC.EDLIUR8JIW5MACEC8LRR53 for handler AmbientEdge.ResponseHandler
+2020-05-15 16:54:43.570 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.EDLIUR8JIW5MACEC8LRR53
+2020-05-15 16:56:52.217 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 16:56:52.254 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 16:56:52.845 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 16:56:52.847 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 16:56:52.853 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 16:56:52.986 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.TLZYQ6IR9XEXNMQOUX0G46 with inbox _PUBLIC.TLZYQ6IR9XEXNMQOUX0G46
+2020-05-15 16:56:52.987 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.TLZYQ6IR9XEXNMQOUX0G46
+2020-05-15 16:56:52.987 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.TLZYQ6IR9XEXNMQOUX0G46 with inbox _PUBLIC.TLZYQ6IR9XEXNMQOUX0G46 for handler AmbientEdge.ResponseHandler
+2020-05-15 16:56:52.987 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.TLZYQ6IR9XEXNMQOUX0G46
+2020-05-15 17:13:53.978 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 17:13:54.021 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 17:13:54.620 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 17:13:54.622 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 17:13:54.628 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 17:13:54.785 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.K9MPTXVWM8CY6MASRHU19Y with inbox _PUBLIC.K9MPTXVWM8CY6MASRHU19Y
+2020-05-15 17:13:54.785 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.K9MPTXVWM8CY6MASRHU19Y
+2020-05-15 17:13:54.785 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.K9MPTXVWM8CY6MASRHU19Y with inbox _PUBLIC.K9MPTXVWM8CY6MASRHU19Y for handler AmbientEdge.ResponseHandler
+2020-05-15 17:13:54.785 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.K9MPTXVWM8CY6MASRHU19Y
+2020-05-15 17:20:13.463 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-15 17:20:13.501 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-15 17:20:14.106 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-15 17:20:14.107 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-15 17:20:14.114 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-15 17:20:14.258 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.USAJKMYC8S8VK3AXA9SLIE with inbox _PUBLIC.USAJKMYC8S8VK3AXA9SLIE
+2020-05-15 17:20:14.258 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.USAJKMYC8S8VK3AXA9SLIE
+2020-05-15 17:20:14.258 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.USAJKMYC8S8VK3AXA9SLIE with inbox _PUBLIC.USAJKMYC8S8VK3AXA9SLIE for handler AmbientEdge.ResponseHandler
+2020-05-15 17:20:14.258 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.USAJKMYC8S8VK3AXA9SLIE
+2020-05-15 17:20:15.245 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1589599215240492500,"TimeStamp":"2020-05-16T03:20:15.2404925Z","Sequence":1,"Subject":"_PUBLIC.USAJKMYC8S8VK3AXA9SLIE","Data":"1A024F4B3204726669647A0D0A0B46372D46462D45382D4139","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-15 17:20:15.247 -10:00 [INF] RFID Event: UID = F7-FF-E8-A9: 

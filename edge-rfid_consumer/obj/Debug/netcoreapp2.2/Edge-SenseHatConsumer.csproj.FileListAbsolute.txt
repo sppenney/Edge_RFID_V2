@@ -1,0 +1,10 @@
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\bin\Debug\netcoreapp2.2\Edge-SenseHatConsumer.deps.json
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\bin\Debug\netcoreapp2.2\Edge-SenseHatConsumer.runtimeconfig.json
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\bin\Debug\netcoreapp2.2\Edge-SenseHatConsumer.runtimeconfig.dev.json
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\bin\Debug\netcoreapp2.2\Edge-SenseHatConsumer.dll
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\bin\Debug\netcoreapp2.2\Edge-SenseHatConsumer.pdb
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\obj\Debug\netcoreapp2.2\Edge-SenseHatConsumer.csprojAssemblyReference.cache
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\obj\Debug\netcoreapp2.2\Edge-SenseHatConsumer.AssemblyInfoInputs.cache
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\obj\Debug\netcoreapp2.2\Edge-SenseHatConsumer.AssemblyInfo.cs
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\obj\Debug\netcoreapp2.2\Edge-SenseHatConsumer.dll
+C:\Users\sppen\Desktop\edge-sensehat_consumer_example\obj\Debug\netcoreapp2.2\Edge-SenseHatConsumer.pdb

@@ -1,0 +1,137 @@
+2020-05-06 13:58:31.734 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 13:58:31.936 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 13:58:31.936 -10:00 [INF] Testing GET request
+2020-05-06 13:58:31.958 -10:00 [INF] Single Env Result: Temp = 31.2, Humidity=31.1, Pressure=31.3: 
+2020-05-06 13:58:31.965 -10:00 [DBG] SendObserveRequest for path _PUBLIC.sensehat1.env
+2020-05-06 13:58:31.984 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.sensehat1.env and inbox _PUBLIC.Q1382AZ5MET8H3UIHJYGKN
+2020-05-06 13:58:31.986 -10:00 [DBG] Added observation for _PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN with inbox _PUBLIC.Q1382AZ5MET8H3UIHJYGKN for handler AmbientEdge.ResponseHandler
+2020-05-06 13:58:31.986 -10:00 [INF] Setup observation on path _PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN
+2020-05-06 13:58:34.486 -10:00 [INF] Env Event: Temp = 29.2, Humidity=29.1, Pressure=29.3: 
+2020-05-06 13:58:36.974 -10:00 [INF] Env Event: Temp = 33.2, Humidity=33.1, Pressure=33.3: 
+2020-05-06 13:58:37.489 -10:00 [INF] Requesting config using path _PUBLIC.sensehat1.env.config
+2020-05-06 13:58:37.574 -10:00 [INF] Config request had result "Success" with message OK
+2020-05-06 13:58:38.573 -10:00 [INF] Env Event: Temp = 32.2, Humidity=32.1, Pressure=32.3: 
+2020-05-06 13:58:39.572 -10:00 [INF] Env Event: Temp = 25.2, Humidity=25.1, Pressure=25.3: 
+2020-05-06 13:58:40.573 -10:00 [INF] Env Event: Temp = 29.2, Humidity=29.1, Pressure=29.3: 
+2020-05-06 13:58:41.573 -10:00 [INF] Env Event: Temp = 31.2, Humidity=31.1, Pressure=31.3: 
+2020-05-06 13:58:42.587 -10:00 [INF] Env Event: Temp = 33.2, Humidity=33.1, Pressure=33.3: 
+2020-05-06 13:58:43.000 -10:00 [INF] Calling close on observation path _PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN
+2020-05-06 13:58:43.000 -10:00 [INF] Requesting config using url _PUBLIC.sensehat1.env.config
+2020-05-06 13:58:43.003 -10:00 [INF] Config request had result "Success" with message OK
+2020-05-06 13:58:43.010 -10:00 [DBG] Trying to remove observation {"IsOpen":false,"Inbox":"_PUBLIC.Q1382AZ5MET8H3UIHJYGKN","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.sensehat1.env","RelativeResourcePath":"observers.Q1382AZ5MET8H3UIHJYGKN","FullyQualifiedPath":"_PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN","$type":"Observation"}
+2020-05-06 13:58:43.015 -10:00 [DBG] Calling delete on observation path _PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN
+2020-05-06 13:58:43.019 -10:00 [DBG] Successfully deleted observation _PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN
+2020-05-06 13:58:43.024 -10:00 [DBG] Observation closed for {"IsOpen":false,"Inbox":"_PUBLIC.Q1382AZ5MET8H3UIHJYGKN","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.sensehat1.env","RelativeResourcePath":"observers.Q1382AZ5MET8H3UIHJYGKN","FullyQualifiedPath":"_PUBLIC.sensehat1.env.observers.Q1382AZ5MET8H3UIHJYGKN","$type":"Observation"}
+2020-05-06 13:58:43.989 -10:00 [INF] Closing EdgeConnection AmbientEdge.EdgeConnection
+2020-05-06 14:46:12.775 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 14:46:12.959 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 14:46:12.961 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.event
+2020-05-06 14:46:12.977 -10:00 [WRN] Could not create observe subscription. Error code "MethodNotAllowed" with message Route not found for path event and method Observe
+2020-05-06 14:47:22.254 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 14:47:22.928 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 14:47:22.931 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.event
+2020-05-06 14:47:22.939 -10:00 [WRN] Could not create observe subscription. Error code "MethodNotAllowed" with message Route not found for path event and method Observe
+2020-05-06 14:49:13.652 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 14:49:14.341 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 14:49:14.343 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 14:49:14.393 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.OMTVZ0E994IZ6E580BQ6W7
+2020-05-06 14:49:14.395 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.OMTVZ0E994IZ6E580BQ6W7 with inbox _PUBLIC.OMTVZ0E994IZ6E580BQ6W7 for handler AmbientEdge.ResponseHandler
+2020-05-06 15:29:23.271 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 15:29:23.387 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 15:29:23.388 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 15:30:21.646 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 15:30:22.283 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 15:30:22.284 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 15:30:22.302 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.C46396W2QC26JPELMDHHNV
+2020-05-06 15:30:22.303 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.C46396W2QC26JPELMDHHNV with inbox _PUBLIC.C46396W2QC26JPELMDHHNV for handler AmbientEdge.ResponseHandler
+2020-05-06 15:31:13.368 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 15:31:13.983 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 15:31:13.984 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 15:31:14.011 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.CNS9TD2ZYI5WWSP5BL3VQS
+2020-05-06 15:31:14.013 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.CNS9TD2ZYI5WWSP5BL3VQS with inbox _PUBLIC.CNS9TD2ZYI5WWSP5BL3VQS for handler AmbientEdge.ResponseHandler
+2020-05-06 15:31:51.110 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 15:31:51.736 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 15:31:51.737 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 15:31:51.748 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"sensehat-consumer1","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-06 15:31:51.790 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.BLOQKB1QXYBFY7GN4IT17T with inbox _PUBLIC.BLOQKB1QXYBFY7GN4IT17T
+2020-05-06 15:31:51.791 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.BLOQKB1QXYBFY7GN4IT17T
+2020-05-06 15:31:51.791 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.BLOQKB1QXYBFY7GN4IT17T with inbox _PUBLIC.BLOQKB1QXYBFY7GN4IT17T for handler AmbientEdge.ResponseHandler
+2020-05-06 16:00:42.711 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service sensehat-consumer1
+2020-05-06 16:00:42.843 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.sensehat-consumer1.>
+2020-05-06 16:00:42.844 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 16:00:42.849 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"sensehat-consumer1","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-06 16:00:42.868 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.ZSFOSLUNTBUXI4V8EZ0W42 with inbox _PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42
+2020-05-06 16:00:42.868 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42
+2020-05-06 16:00:42.868 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.ZSFOSLUNTBUXI4V8EZ0W42 with inbox _PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42 for handler AmbientEdge.ResponseHandler
+2020-05-06 16:00:43.870 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816843866771800,"TimeStamp":"2020-05-07T02:00:43.8667718Z","Sequence":2,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343320414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:43.871 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:43 AM: 
+2020-05-06 16:00:44.869 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816844868123600,"TimeStamp":"2020-05-07T02:00:44.8681236Z","Sequence":3,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343420414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:44.869 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:44 AM: 
+2020-05-06 16:00:45.871 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816845870441400,"TimeStamp":"2020-05-07T02:00:45.8704414Z","Sequence":4,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343520414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:45.871 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:45 AM: 
+2020-05-06 16:00:46.872 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816846871768000,"TimeStamp":"2020-05-07T02:00:46.8717680Z","Sequence":5,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343620414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:46.873 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:46 AM: 
+2020-05-06 16:00:47.874 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816847873520400,"TimeStamp":"2020-05-07T02:00:47.8735204Z","Sequence":6,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343720414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:47.874 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:47 AM: 
+2020-05-06 16:00:48.875 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816848874605900,"TimeStamp":"2020-05-07T02:00:48.8746059Z","Sequence":7,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343820414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:48.875 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:48 AM: 
+2020-05-06 16:00:49.877 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816849876613200,"TimeStamp":"2020-05-07T02:00:49.8766132Z","Sequence":8,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A343920414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:49.877 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:49 AM: 
+2020-05-06 16:00:50.878 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816850877730600,"TimeStamp":"2020-05-07T02:00:50.8777306Z","Sequence":9,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A353020414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:50.878 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:50 AM: 
+2020-05-06 16:00:51.880 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816851879053800,"TimeStamp":"2020-05-07T02:00:51.8790538Z","Sequence":10,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A353120414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:51.880 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:51 AM: 
+2020-05-06 16:00:52.884 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816852881414100,"TimeStamp":"2020-05-07T02:00:52.8814141Z","Sequence":11,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A353220414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:52.884 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:52 AM: 
+2020-05-06 16:00:53.886 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816853885453200,"TimeStamp":"2020-05-07T02:00:53.8854532Z","Sequence":12,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A353320414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:53.886 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:53 AM: 
+2020-05-06 16:00:54.887 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588816854887004300,"TimeStamp":"2020-05-07T02:00:54.8870043Z","Sequence":13,"Subject":"_PUBLIC.ZSFOSLUNTBUXI4V8EZ0W42","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A30303A353420414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:00:54.888 -10:00 [INF] RFID Event: UID = 5/7/2020 2:00:54 AM: 
+2020-05-06 16:11:36.426 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-06 16:11:36.579 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-06 16:11:36.580 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 16:11:36.587 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-06 16:11:36.607 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.P5YUNHP2C6X2KUSH4RHU50 with inbox _PUBLIC.P5YUNHP2C6X2KUSH4RHU50
+2020-05-06 16:11:36.607 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.P5YUNHP2C6X2KUSH4RHU50
+2020-05-06 16:11:36.607 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50 with inbox _PUBLIC.P5YUNHP2C6X2KUSH4RHU50 for handler AmbientEdge.ResponseHandler
+2020-05-06 16:11:36.607 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50
+2020-05-06 16:11:37.612 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817497607781400,"TimeStamp":"2020-05-07T02:11:37.6077814Z","Sequence":2,"Subject":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31313A333720414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:11:37.613 -10:00 [INF] RFID Event: UID = 5/7/2020 2:11:37 AM: 
+2020-05-06 16:11:38.611 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817498610067400,"TimeStamp":"2020-05-07T02:11:38.6100674Z","Sequence":3,"Subject":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31313A333820414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:11:38.611 -10:00 [INF] RFID Event: UID = 5/7/2020 2:11:38 AM: 
+2020-05-06 16:11:39.613 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817499612385300,"TimeStamp":"2020-05-07T02:11:39.6123853Z","Sequence":4,"Subject":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31313A333920414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:11:39.613 -10:00 [INF] RFID Event: UID = 5/7/2020 2:11:39 AM: 
+2020-05-06 16:11:40.614 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817500613706300,"TimeStamp":"2020-05-07T02:11:40.6137063Z","Sequence":5,"Subject":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31313A343020414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:11:40.615 -10:00 [INF] RFID Event: UID = 5/7/2020 2:11:40 AM: 
+2020-05-06 16:11:41.618 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817501616512000,"TimeStamp":"2020-05-07T02:11:41.6165120Z","Sequence":6,"Subject":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31313A343120414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:11:41.619 -10:00 [INF] RFID Event: UID = 5/7/2020 2:11:41 AM: 
+2020-05-06 16:11:41.621 -10:00 [VRB] CloseObservation for {"IsOpen":false,"Inbox":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.P5YUNHP2C6X2KUSH4RHU50","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50","$type":"Observation"}
+2020-05-06 16:11:41.621 -10:00 [DBG] Trying to remove observation {"IsOpen":false,"Inbox":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.P5YUNHP2C6X2KUSH4RHU50","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50","$type":"Observation"}
+2020-05-06 16:11:41.621 -10:00 [DBG] Calling delete on observation path _PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50
+2020-05-06 16:11:41.625 -10:00 [VRB] RemovePath removed item {"Item1":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Item2":{"IsOpen":false,"Inbox":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.P5YUNHP2C6X2KUSH4RHU50","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50","$type":"Observation"},"$type":"Tuple`2"} for path _PUBLIC.rfid.events
+2020-05-06 16:11:41.625 -10:00 [DBG] Successfully deleted observation _PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50
+2020-05-06 16:11:41.628 -10:00 [DBG] Observation closed for {"IsOpen":false,"Inbox":"_PUBLIC.P5YUNHP2C6X2KUSH4RHU50","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.P5YUNHP2C6X2KUSH4RHU50","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.P5YUNHP2C6X2KUSH4RHU50","$type":"Observation"}
+2020-05-06 16:17:04.127 -10:00 [INF] Creating EdgeConnection for cluster test-cluster, context _PUBLIC and service rfid-consumer
+2020-05-06 16:17:04.749 -10:00 [DBG] EdgeConnection is subscribing to _PUBLIC.rfid-consumer.>
+2020-05-06 16:17:04.750 -10:00 [DBG] SendObserveRequest for path _PUBLIC.rfid.events
+2020-05-06 16:17:04.756 -10:00 [VRB] SendRequest to path _PUBLIC.rfid.events with request {"Version":"","MessageId":"","ClientId":"rfid-consumer","Token":"","Accept":"ambientedge.protocol.ext.rfid","Method":"Observe","SyncTime":0,"Query":"","PayloadInfo":null,"Payload":[],"$type":"EdgeRequest"}
+2020-05-06 16:17:04.777 -10:00 [VRB] Created observation for service _PUBLIC.rfid.events on resource observers.GBUDBAKAC3CWUP45UI25VH with inbox _PUBLIC.GBUDBAKAC3CWUP45UI25VH
+2020-05-06 16:17:04.778 -10:00 [DBG] MultiKeyDataStore added item for path _PUBLIC.rfid.events and inbox _PUBLIC.GBUDBAKAC3CWUP45UI25VH
+2020-05-06 16:17:04.778 -10:00 [DBG] Added observation for _PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH with inbox _PUBLIC.GBUDBAKAC3CWUP45UI25VH for handler AmbientEdge.ResponseHandler
+2020-05-06 16:17:04.778 -10:00 [INF] Setup observation on path _PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH
+2020-05-06 16:17:05.781 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817825777648300,"TimeStamp":"2020-05-07T02:17:05.7776483Z","Sequence":2,"Subject":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31373A303520414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:17:05.782 -10:00 [INF] RFID Event: UID = 5/7/2020 2:17:05 AM: 
+2020-05-06 16:17:06.780 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817826778991700,"TimeStamp":"2020-05-07T02:17:06.7789917Z","Sequence":3,"Subject":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31373A303620414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:17:06.780 -10:00 [INF] RFID Event: UID = 5/7/2020 2:17:06 AM: 
+2020-05-06 16:17:07.781 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817827780660800,"TimeStamp":"2020-05-07T02:17:07.7806608Z","Sequence":4,"Subject":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31373A303720414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:17:07.782 -10:00 [INF] RFID Event: UID = 5/7/2020 2:17:07 AM: 
+2020-05-06 16:17:08.782 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817828782055200,"TimeStamp":"2020-05-07T02:17:08.7820552Z","Sequence":5,"Subject":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31373A303820414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:17:08.783 -10:00 [INF] RFID Event: UID = 5/7/2020 2:17:08 AM: 
+2020-05-06 16:17:09.784 -10:00 [VRB] ObservationListenerHandler received event {"Message":{"Time":1588817829783261100,"TimeStamp":"2020-05-07T02:17:09.7832611Z","Sequence":6,"Subject":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Data":"1A024F4B3204726669647A150A13352F372F3230323020323A31373A303920414D","Redelivered":false,"Subscription":{"$type":"AsyncSubscription"},"$type":"StanMsg"},"$type":"StanMsgHandlerArgs"}
+2020-05-06 16:17:09.784 -10:00 [INF] RFID Event: UID = 5/7/2020 2:17:09 AM: 
+2020-05-06 16:17:09.784 -10:00 [VRB] CloseObservation for {"IsOpen":false,"Inbox":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.GBUDBAKAC3CWUP45UI25VH","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH","$type":"Observation"}
+2020-05-06 16:17:09.784 -10:00 [DBG] Trying to remove observation {"IsOpen":false,"Inbox":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.GBUDBAKAC3CWUP45UI25VH","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH","$type":"Observation"}
+2020-05-06 16:17:09.784 -10:00 [DBG] Calling delete on observation path _PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH
+2020-05-06 16:17:09.788 -10:00 [VRB] RemovePath removed item {"Item1":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Item2":{"IsOpen":false,"Inbox":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.GBUDBAKAC3CWUP45UI25VH","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH","$type":"Observation"},"$type":"Tuple`2"} for path _PUBLIC.rfid.events
+2020-05-06 16:17:09.789 -10:00 [DBG] Successfully deleted observation _PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH
+2020-05-06 16:17:09.791 -10:00 [DBG] Observation closed for {"IsOpen":false,"Inbox":"_PUBLIC.GBUDBAKAC3CWUP45UI25VH","Handler":"AmbientEdge.ResponseHandler","ServiceRoot":"_PUBLIC.rfid.events","RelativeResourcePath":"observers.GBUDBAKAC3CWUP45UI25VH","FullyQualifiedPath":"_PUBLIC.rfid.events.observers.GBUDBAKAC3CWUP45UI25VH","$type":"Observation"}
