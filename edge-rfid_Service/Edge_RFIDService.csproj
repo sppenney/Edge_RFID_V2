@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Edge_RFIDService</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AmbientEdge.Client" Version="0.0.9"/>
+    <PackageReference Include="AmbientEdge.Logging.Serilog" Version="0.0.6"/>
+    <PackageReference Include="Google.Protobuf" Version="3.10.1"/>
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1"/>
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0"/>
+    <PackageReference Include="STAN.Client" Version="0.1.7"/>
+    <PackageReference Include="System.Device.Gpio" Version="1.1.0-prerelease.20153.1"/>
+    <PackageReference Include="Iot.Device.Bindings" Version="1.1.0-prerelease.20153.1"/>
+  </ItemGroup>
+</Project>

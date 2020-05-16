@@ -1,0 +1,7 @@
+syntax = "proto3";
+package ambient_edge.protocol.ext.rfid;
+
+message rfidevent 
+{
+    string uid = 1; 
+}
